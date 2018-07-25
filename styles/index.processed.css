@@ -1,0 +1,250 @@
+/* DO NOT EDIT BELOW THIS LINE */
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#search {
+  text-align: center;
+}
+
+button {
+  display: inline-block;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  color: #757575;
+  cursor: default;
+  font-family: arial, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  padding: .5em 1em;
+  text-align: center;
+}
+
+input {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACrElEQVR42u2Xz2sTQRSAX8VSb1K8iNqKooJH2Ux6Ksn+iPQqxZMIehJB0do/IMhmQWsvHr2KSEGk0tSLIoWIYNUKij20F2/N7iaUZnYT0kYzzhMKs0HDJiTdLcwHDwKZSd63781LBiQSSW9JZdkhzfKm1Rz9mjZp/W9YdEU3vXv4HsQZ40FtNG36q5rls//Ej4tmbSS2T15Mvp3ExOPmEMQNbBtMMEyoljcFcQN7PqyAlqNfIG7gYQ0tYNIaxA1MrJPY3wImbUqBKAXSFv0tBSIVMOkvKRDtGKWN/T6FdqRAxFNoWwpEPIXqUqBT6ALU/UVgu8GW4GD3f6f9TRDYNJTDrk7YbtiqUumHwIYoUJuHERDAS0r4CvgFECgbY+cFAR7KT+g1POmCKFDNw6WggHc3fBtVb4CAoyauBgXIG+g1Xh5mRAGah6cggBd11fK/h7lOprIs0H6uRl6KAo5O7kOv4QmPiwJ4Jqqv4FiwCtXjvD2+tRmfK6kZ/ygI2HritK0rDVGgrClJ6DWMwYC/AGuCBMYcIC2V0CzvjmbRz3j3xUjn6CfeYreUJ2wQkGD75INPX1mFfsEFrrcIYCvdhC4paWQakxajpJMr0C9YFg54i7AsClRmh9/xnr0NHcInzZStk2aLwAcGMAD9pPIazvFKVDD5rdnhJeHLX5RTyRPQHpz5o66emMc9wdlPtvA8wF7Aq2BUHh1525qEo5JtR1WeOXpickO9cJIpyuD6xJmhYiZ5ytWSl3mlnuOaf+2zDaLDXmJrSgZ/MYVEugo+gSh+FkSBa4yd5Ul87DZ5XpFl/AyIEjzYjkau8WqshU2cr13HPbgX4gJOD97n465GZlyVvC9mSKloKI2iTnbwNT+gBX54H+IaXAtxJzE3ycSAFqSAFJACUkAikXD+AHj5/wx2o5osAAAAAElFTkSuQmCC) no-repeat center right;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  border: 1px solid #aaa;
+  display: block;
+  padding: 1em;
+  margin: 2em auto;
+  outline: none;
+  line-height: 2em;
+  width: 80%;
+}
+
+/* Doodle Stage */
+
+#stage {
+  background: #209590;
+  height: 300px;
+  width: 700px;
+  overflow: hidden;
+  position: relative;
+}
+
+#toast,
+#pancake,
+#pancake1,
+#pancake2,
+#pancakeR,
+#pancake1R,
+#pancake2R,
+#butter,
+#butter1,
+#cup,
+#steam,
+#bacon,
+#egg,
+#title,
+h1 {
+  position: absolute;
+}
+
+h1 {
+  color: #FFF;
+  font-family: futura;
+  top: 200px;
+  left: 100px;
+}
+
+#title {
+  animation: zoomIn 2s;
+}
+
+#toast {
+  height: 105px;
+  width: 105px;
+  left: 40px;
+  top: 100px;
+}
+
+#pancake {
+  height: 120px;
+  width: 120px;
+  left: 155px;
+  top: 125px;
+  animation: fadeInDownBig 1s ease-out;
+}
+
+img {
+  animation: fadeInDownBig 1s toggle;
+}
+
+#pancake1 {
+  height: 120px;
+  width: 120px;
+  left: 158px;
+  top: 118px;
+  animation: fadeInDownBig 2.5s ease-out;
+}
+
+#pancake2 {
+  height: 120px;
+  width: 120px;
+  left: 164px;
+  top: 109px;
+  animation: fadeInDownBig 3s ease-out;
+}
+
+#pancakeR {
+  height: 120px;
+  width: 120px;
+  left: 294px;
+  top: 125px;
+  animation: fadeInDownBig 1.5s ease-out;
+}
+
+#pancake1R {
+  height: 120px;
+  width: 120px;
+  left: 290px;
+  top: 116px;
+  animation: fadeInDownBig 2s ease-out;
+}
+
+#pancake2R {
+  height: 120px;
+  width: 120px;
+  left: 295px;
+  top: 109px;
+  animation: fadeInDownBig 3s ease-out;
+}
+
+#butter {
+  height: 20px;
+  width: 20px;
+  left: 209px;
+  top: 155px;
+  animation: fadeInDownBig 3.5s ease-out;
+}
+
+#butter1 {
+  height: 20px;
+  width: 20px;
+  left: 340px;
+  top: 155px;
+  animation: fadeInDownBig 4s ease-out;
+}
+
+#cup {
+  height: 90px;
+  width: 90px;
+  right: 180px;
+  top: 119px;
+}
+
+#steam {
+  height: 65px;
+  width: 40px;
+  right: 220px;
+  top: 55px;
+  animation: fadeInUp 5s ease-out;
+}
+
+#bacon {
+  height: 100px;
+  width: 100px;
+  right: 73px;
+  top: 113px;
+}
+
+#egg {
+  height: 90px;
+  width: 90px;
+  right: 33px;
+  top: 113px;
+}
+
+@keyframes fadeInDownBig {
+  from {
+    top: -80px;
+  }
+  to {
+    bottom: 130px;
+  }
+}
+
+@keyframes fadeInDownBig {
+  from {
+    top: -80px;
+  }
+  to {
+    bottom: 116px;
+  }
+}
+
+@keyframes fadeInDownBig {
+  from {
+    top: -80px;
+  }
+  to {
+    bottom: 109px;
+  }
+}
+
+@keyframes fadeInDownBig {
+  from {
+    top: -80px;
+  }
+  to {
+    bottom: 109px;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes tada {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes shake {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}

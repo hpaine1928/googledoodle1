@@ -1,0 +1,248 @@
+// External styling from: https://codepen.io/manikoth/pen/NNNBYe.css
+@import "template";
+
+/* Doodle Stage */
+
+#stage {
+  background: #209590;
+  height: 300px;
+  width: 700px;
+  
+  // Hide Overflowing Elements
+  overflow: hidden;
+  
+  // Relative Parent
+  position: relative;
+}
+
+// Absolute Children
+#toast,
+#pancake,
+#pancake1,
+#pancake2,
+#pancakeR,
+#pancake1R,
+#pancake2R,
+#butter,
+#butter1,
+#cup,
+#steam,
+#bacon,
+#egg,
+#title,
+h1{
+  position: absolute;
+}
+
+h1{
+  color: #FFF;
+  font-family: futura;
+  top:200px;
+  left:100px;
+  
+}
+#title{
+  animation:
+    zoomIn
+    2s
+}
+
+#toast{
+  
+  height:105px;
+  width:105px;
+  left: 40px;
+  top: 100px;
+  
+  
+}
+#pancake {
+  height:120px;
+  width:120px;
+  left: 155px;
+  top: 125px;
+  animation: 
+    fadeInDownBig
+    1s
+    ease-out
+    ;
+}
+ 
+img{
+  animation: 
+    fadeInDownBig
+    1s
+    toggle
+    ;
+}
+
+#pancake1 {
+  
+  height:120px;
+  width:120px;
+  left: 158px;
+  top: 118px;
+  animation: 
+    fadeInDownBig
+    2.5s
+    ease-out
+    ;
+}
+
+#pancake2 {
+  height:120px;
+  width:120px;
+  left: 164px;
+  top: 109px;
+  animation: 
+    fadeInDownBig
+    3s
+    ease-out
+    ;
+}
+
+#pancakeR {
+  height:120px;
+  width:120px;
+  left: 294px;
+  top: 125px;
+  animation: 
+    fadeInDownBig
+    1.5s
+    ease-out
+    ;
+}
+#pancake1R {
+  
+  height:120px;
+  width:120px;
+  left: 290px;
+  top: 116px;
+  animation: 
+    fadeInDownBig
+    2s
+    ease-out
+    ;
+}
+#pancake2R {
+  height:120px;
+  width:120px;
+  left: 295px;
+  top: 109px;
+  animation: 
+    fadeInDownBig
+    3s
+    ease-out
+    ;
+}
+#butter {
+  height:20px;
+  width:20px;
+  left: 209px;
+  top: 155px;
+  animation: 
+    fadeInDownBig
+    3.5s
+    ease-out
+    ;
+}
+#butter1 {
+  height:20px;
+  width:20px;
+  left: 340px;
+  top: 155px;
+  animation: 
+    fadeInDownBig
+    4s
+    ease-out
+    ;
+}
+
+#cup {
+  height:90px;
+  width:90px;
+  right: 180px;
+  top: 119px;
+  
+}
+#steam {
+  height:65px;
+  width:40px;
+  right: 220px;
+  top:55px;
+  animation: 
+    fadeInUp 
+    5s 
+    ease-out ;
+}
+#bacon {
+  height:100px;
+  width:100px;
+  right: 73px;
+  top: 113px;
+  
+}
+#egg {
+  height:90px;
+  width:90px;
+  right: 33px;
+  top: 113px;
+}
+// Override Defaults
+
+    
+
+
+@keyframes fadeInDownBig {
+   from { top: -80px; 
+   }
+
+  to { bottom: 130px;  
+  }
+}
+@keyframes fadeInDownBig {
+   from { top: -80px; 
+   }
+
+  to { bottom: 116px;  
+  }
+}
+@keyframes fadeInDownBig {
+   from { top: -80px; 
+   }
+
+  to { bottom: 109px;  
+  }
+}
+
+@keyframes fadeInDownBig{
+  from { top: -80px;
+  }
+  to { bottom:109px;
+  }
+}
+
+@keyframes fadeInUp {
+  0% { opacity: 0 ;
+    }
+  100% {
+    opacity: 100% ;
+  }
+}
+
+@keyframes tada {
+  0% { opacity: 0 ;
+    }
+  100% {
+    opacity: 100% ;
+  }
+}
+
+@keyframes shake {
+  0% { opacity: 0 ;
+    }
+  100% {
+    opacity: 100% ;
+  }
+  
+}
